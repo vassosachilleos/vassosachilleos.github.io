@@ -1,0 +1,175 @@
+# One entry per paper. Used by {{< papers "key1,key2" >}} and by the "papers" block.
+maddi2024prr:
+  authors: A. Maddi, Y. Aurégan, G. Penelet, V. Pagneux, and V. Achilleos
+  title: Exact analog of the Hatano-Nelson model in one-dimensional continuous nonreciprocal systems
+  journal: Phys. Rev. Research
+  volume: "6"
+  number: L012061
+  year: 2024
+  doi: 10.1103/PhysRevResearch.6.L012061
+  fig: maddi2024prr.png
+  caption: "Fig. 5: transition from periodic to open boundary conditions with a diaphragm, and exponential sensitivity."
+eek2024prb:
+  authors: L. Eek, A. Moustaj, M. Röntgen, V. Pagneux, V. Achilleos, and C. Morais Smith
+  title: Emergent non-Hermitian models
+  journal: Phys. Rev. B
+  volume: "109"
+  number: "045122"
+  year: 2024
+  doi: 10.1103/PhysRevB.109.045122
+  fig: eek2024prb.png
+  caption: "Fig. 2: emergent Hatano–Nelson model and bipolar skin effect."
+manda2024prb:
+  authors: B. Many Manda, R. Carretero-González, P. G. Kevrekidis, and V. Achilleos
+  title: Skin modes in a nonlinear Hatano-Nelson model
+  journal: Phys. Rev. B
+  volume: "109"
+  number: "094308"
+  year: 2024
+  doi: 10.1103/PhysRevB.109.094308
+  arxiv: "2311.09139"
+  fig: manda2024prb.png
+  width: 65%
+  caption: "Fig. 1: nonlinear Hatano–Nelson model, linear and nonlinear skin modes."
+manda2024prbL:
+  authors: B. Many Manda and V. Achilleos
+  title: Insensitive edge solitons in a non-Hermitian topological lattice
+  journal: Phys. Rev. B
+  volume: "110"
+  number: L180302
+  year: 2024
+  doi: 10.1103/PhysRevB.110.L180302
+  arxiv: "2405.05441"
+  fig: manda2024prbL.png
+  width: 65%
+  caption: "Fig. 3: energy of nonreciprocal edge solitons versus nonreciprocity, and its insensitivity to the boundary."
+jana2025prapplied:
+  authors: S. Jana, B. Many Manda, V. Achilleos, D. J. Frantzeskakis, and L. Sirota
+  title: Harnessing nonlinearity to tame wave dynamics in nonreciprocal active systems
+  journal: Phys. Rev. Applied
+  volume: "24"
+  number: L041005
+  year: 2025
+  doi: 10.1103/zkxs-24kn
+  arxiv: "2502.16216"
+  fig: jana2025prapplied.png
+  width: 65%
+  caption: "Fig. 1: taming pulse propagation with dissipation, nonreciprocity and nonlinearity."
+achilleos2015pre:
+  authors: V. Achilleos, O. Richoux, G. Theocharis, and D. J. Frantzeskakis
+  title: "Acoustic solitons in waveguides with Helmholtz resonators: Transmission line approach"
+  journal: Phys. Rev. E
+  volume: "91"
+  number: "023204"
+  year: 2015
+  doi: 10.1103/PhysRevE.91.023204
+  fig: achilleos2015pre.png
+  width: 60%
+  caption: "Fig. 2: measured pressure pulse at successive positions along the waveguide."
+zhang2017pre:
+  authors: J. Zhang, V. Romero-García, G. Theocharis, O. Richoux, V. Achilleos, and D. J. Frantzeskakis
+  title: Bright and gap solitons in membrane-type acoustic metamaterials
+  journal: Phys. Rev. E
+  volume: "96"
+  number: "022214"
+  year: 2017
+  doi: 10.1103/PhysRevE.96.022214
+  fig: zhang2017pre.png
+  caption: "Fig. 3: evolution of a bright soliton."
+sougleridis2023jsv:
+  authors: I. Ioannou Sougleridis, O. Richoux, V. Achilleos, G. Theocharis, C. Desjouy, and D. J. Frantzeskakis
+  title: "Acoustic solitons in a periodic waveguide: Theory and experiments"
+  journal: J. Sound Vib.
+  volume: "546"
+  number: "117433"
+  year: 2023
+  doi: 10.1016/j.jsv.2022.117433
+  fig: sougleridis2023jsv.png
+  width: 50%
+  caption: "Fig. 1: the periodic acoustic waveguide used in the experiments."
+sougleridis2025pre:
+  authors: I. Ioannou Sougleridis, O. Richoux, V. Achilleos, G. Theocharis, and D. J. Frantzeskakis
+  title: Ring-shaped linear waves and solitons in a square lattice of acoustic waveguides
+  journal: Phys. Rev. E
+  volume: "111"
+  number: "044201"
+  year: 2025
+  doi: 10.1103/PhysRevE.111.044201
+  fig: sougleridis2025pre.png
+  width: 50%
+  caption: "Fig. 6: propagation of a ring soliton, comparison with the cKdV soliton, and its amplitude decay."
+ngapasare2019pre:
+  authors: A. Ngapasare, G. Theocharis, O. Richoux, Ch. Skokos, and V. Achilleos
+  title: "Chaos and Anderson localization in disordered classical chains: Hertzian versus Fermi-Pasta-Ulam-Tsingou models"
+  journal: Phys. Rev. E
+  volume: "99"
+  number: "032211"
+  year: 2019
+  doi: 10.1103/PhysRevE.99.032211
+  fig: ngapasare2019pre.png
+  width: 70%
+  caption: "Fig. 2: spatiotemporal spreading of energy in the disordered chains."
+ngapasare2020prb:
+  authors: A. Ngapasare, G. Theocharis, O. Richoux, Ch. Skokos, and V. Achilleos
+  title: Wave propagation in a strongly disordered one-dimensional phononic lattice supporting rotational waves
+  journal: Phys. Rev. B
+  volume: "102"
+  number: "054201"
+  year: 2020
+  doi: 10.1103/PhysRevB.102.054201
+  fig: ngapasare2020prb.png
+  width: 60%
+  caption: "Fig. 1: the disordered lattice with translational and rotational degrees of freedom."
+ngapasare2022chaos:
+  authors: A. Ngapasare, G. Theocharis, O. Richoux, Ch. Skokos, and V. Achilleos
+  title: Wave-packet spreading in disordered soft architected structures
+  journal: Chaos
+  volume: "32"
+  number: "053116"
+  year: 2022
+  doi: 10.1063/5.0089055
+  fig: ngapasare2022chaos.png
+  width: 55%
+  caption: "Fig. 1: the architected, highly deformable mechanical structure and its discrete model."
+sougleridis2024prb:
+  authors: I. Ioannou Sougleridis, A. Anastasiadis, O. Richoux, V. Achilleos, G. Theocharis, V. Pagneux, and F. K. Diakonos
+  title: Existence and characterization of edge states in an acoustic trimer Su-Schrieffer-Heeger model
+  journal: Phys. Rev. B
+  volume: "110"
+  number: "174311"
+  year: 2024
+  doi: 10.1103/PhysRevB.110.174311
+  fig: sougleridis2024prb.png
+  caption: "Fig. 2: the acoustic analogue of the trimer SSH model and its band structure."
+maddi2025jap:
+  authors: A. Maddi, G. Poignand, V. Achilleos, V. Pagneux, and G. Penelet
+  title: Direct experimental observation of total absorption and loss compensation using sound waves with complex frequencies
+  journal: J. Appl. Phys.
+  volume: "137"
+  number: "234701"
+  year: 2025
+  doi: 10.1063/5.0271074
+  fig: maddi2025jap.png
+  caption: "Fig. 1: total absorption and loss compensation with complex-frequency excitations."
+maddi2025jasa:
+  authors: A. Maddi, G. Poignand, V. Achilleos, V. Pagneux, and G. Penelet
+  title: A nonreciprocal and tunable active acoustic scatterer
+  journal: J. Acoust. Soc. Am.
+  volume: "157"
+  number: "3814"
+  year: 2025
+  doi: 10.1121/10.0036695
+  fig: maddi2025jasa.png
+  width: 55%
+  caption: "Fig. 1: scattering effects realised with a single active scatterer."
+rontgen2023prapplied:
+  authors: M. Röntgen, O. Richoux, G. Theocharis, C. V. Morfonios, P. Schmelcher, P. del Hougne, and V. Achilleos
+  title: Equireflectionality and customized unbalanced coherent perfect absorption in asymmetric waveguide networks
+  journal: Phys. Rev. Applied
+  volume: "20"
+  number: "044082"
+  year: 2023
+  doi: 10.1103/PhysRevApplied.20.044082
+  fig: rontgen2023prapplied.png
+  width: 60%
+  caption: "Fig. 1: two-port scattering set-up and waveguide networks with different symmetries."

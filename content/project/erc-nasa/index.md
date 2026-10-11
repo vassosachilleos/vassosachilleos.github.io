@@ -33,6 +33,21 @@ sections:
     design:
       columns: '1'
 
+  - block: papers
+    content:
+      title: Papers acknowledging ERC-StG-NASA
+      papers:
+        - jana2025prapplied
+        - maddi2025jap
+        - maddi2025jasa
+        - sougleridis2024prb
+        - manda2024prbL
+        - maddi2024prr
+        - eek2024prb
+        - rontgen2023prapplied
+    design:
+      columns: '1'
+
   - block: people
     content:
       title: Members

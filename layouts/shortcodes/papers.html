@@ -1,0 +1,4 @@
+<ol class="paper-list">
+{{- range split (.Get 0) "," }}{{ partial "paper_entry.html" (trim . " ") }}{{ end }}
+</ol>
+<p class="paper-note">Figures reproduced from the published articles for illustration; see the original papers for details.</p>

@@ -1,0 +1,17 @@
+{{- $key := . -}}
+{{- $p := index site.Data.papers $key -}}
+{{- if $p -}}
+<li class="paper-entry">
+  {{- with $p.fig }}
+  <img class="paper-fig" src="{{ printf "papers/%s" . | relURL }}" alt="{{ $p.title }}" loading="lazy" style="width: {{ $p.width | default "85%" }};">
+  {{- end }}
+  {{- with $p.caption }}<div class="paper-caption">{{ . }}</div>{{ end }}
+  <div class="paper-ref">
+    {{ $p.authors }}, <em>{{ $p.title }}</em>, {{ $p.journal }} <strong>{{ $p.volume }}</strong>, {{ $p.number }} ({{ $p.year }}).
+    {{ with $p.doi }}<a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">Paper</a>{{ end }}
+    {{- with $p.arxiv }} · <a href="https://arxiv.org/abs/{{ . }}" target="_blank" rel="noopener">arXiv</a>{{ end }}
+  </div>
+</li>
+{{- else -}}
+<li class="text-danger">Unknown paper key: {{ $key }}</li>
+{{- end -}}

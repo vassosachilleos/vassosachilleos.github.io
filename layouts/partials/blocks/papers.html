@@ -1,0 +1,9 @@
+{{ $block := .wcBlock }}
+<div class="col-12">
+  {{ with $block.content.title }}<h2 class="mb-4">{{ . }}</h2>{{ end }}
+  {{ with $block.content.text }}<p>{{ . | markdownify }}</p>{{ end }}
+  <ol class="paper-list">
+  {{- range $block.content.papers }}{{ partial "paper_entry.html" . }}{{ end }}
+  </ol>
+  <p class="paper-note">Figures reproduced from the published articles for illustration; see the original papers for details.</p>
+</div>

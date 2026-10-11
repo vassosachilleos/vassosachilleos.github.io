@@ -15,7 +15,7 @@ appearance:
 
 marketing:
   seo:
-    site_type: Organization
+    site_type: Person
     local_business_type: ''
     org_name: 'Laboratoire d''Acoustique de l''Université du Mans (LAUM, UMR 6613 CNRS)'
     description: 'Non-Hermitian and active wave physics at LAUM, Le Mans.'

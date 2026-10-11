@@ -8,13 +8,10 @@ sections:
   - block: hero
     content:
       title: |
-        Wave Physics Team
+        Vassos Achilleos
       text: |
-        <br>
-        We study <strong>non-Hermitian and active wave physics</strong> at the
-        Laboratoire d'Acoustique de l'Université du Mans (LAUM, UMR 6613 CNRS):
-        non-Hermitian skin effect, nonreciprocal lattices, exceptional points,
-        PT-symmetry, coherent perfect absorption and scattering-matrix methods.
+        <p class="mb-2">Chargé de recherche</p>
+        <p class="text-muted mb-4" style="font-size:0.72em; line-height:1.5;">Non-Hermitian and active wave physics · non-Hermitian skin effect · nonreciprocal lattices · exceptional points &amp; PT-symmetry · coherent perfect absorption · scattering-matrix methods</p>
       cta:
         label: Research themes
         url: research/

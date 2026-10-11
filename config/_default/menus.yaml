@@ -1,9 +1,6 @@
 main:
   - name: Research
     url: research
-    weight: 5
-  - name: Projects
-    url: project
     weight: 10
   - name: News
     url: post
@@ -14,6 +11,9 @@ main:
   - name: Publications
     url: publication
     weight: 40
+  - name: Projects
+    url: project
+    weight: 50
   - name: Contact
     url: contact
-    weight: 50
+    weight: 60

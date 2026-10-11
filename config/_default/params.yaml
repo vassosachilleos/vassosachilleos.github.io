@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} LAUM — CNRS / Le Mans Université'
+    notice: '<img src="/img/eu-erc-logo.png" alt="Funded by the European Union — ERC" style="display:inline-block; height:26px; width:auto; opacity:.7; vertical-align:middle; margin-right:10px;"> © {year} Vassos Achilleos — LAUM, CNRS / Le Mans Université'
     license:
       enable: false
       allow_derivatives: false

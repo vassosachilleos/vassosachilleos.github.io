@@ -94,6 +94,7 @@ sections:
     content:
       title: Funding
       text: |
+        <img src="/img/eu-erc-logo.png" alt="European Union — European Research Council" style="height:44px; width:auto; opacity:.85;" class="mb-3"><br>
         European Research Council — [ERC-StG-NASA](https://cordis.europa.eu/project/id/101077954/results) (grant agreement 101077954) · CNRS · Le Mans Université
     design:
       columns: '2'

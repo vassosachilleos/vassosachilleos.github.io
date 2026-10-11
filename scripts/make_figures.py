@@ -17,7 +17,7 @@ ax[0].set_xlabel(r"Re $E$");ax[0].set_ylabel(r"Im $E$");ax[0].legend(frameon=Fal
 for j in range(N):
     p=np.abs(V[:,j])**2; ax[1].plot(np.arange(1,N+1),p/p.sum(),color=C1,alpha=.35,lw=1)
 ax[1].set_xlabel("site $n$");ax[1].set_ylabel(r"$|\psi_n|^2$")
-fig.tight_layout();fig.savefig(out+"skin-effect/featured.png",dpi=150);plt.close()
+fig.tight_layout();fig.savefig(out+"../../scripts/hatano_nelson_model.png",dpi=150);plt.close()
 # check: OBC spectrum real, = 2 sqrt(t^2-g^2) cos(pi m/(N+1))
 Ex=np.sort(2*np.sqrt(t*t-g*g)*np.cos(np.pi*np.arange(1,N+1)/(N+1)))
 print("OBC max|Im E|",np.abs(E.imag).max()," max dev from analytic",np.abs(np.sort(E.real)-Ex).max())

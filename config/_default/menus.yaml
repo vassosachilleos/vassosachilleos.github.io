@@ -8,8 +8,8 @@ main:
   - name: News
     url: post
     weight: 20
-  - name: People
-    url: people
+  - name: ERC-St.G-NASA
+    url: project/erc-nasa/
     weight: 30
   - name: Publications
     url: publication

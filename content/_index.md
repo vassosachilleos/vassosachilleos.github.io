@@ -16,8 +16,8 @@ sections:
         label: Research themes
         url: research/
       cta_alt:
-        label: Meet the team
-        url: people/
+        label: ERC-St.G-NASA
+        url: project/erc-nasa/
 
   # 2a. Research themes (figure cards — the modern version of "Recent Works")
   - block: collection
@@ -47,31 +47,31 @@ sections:
       view: card
       columns: '2'
 
-  # 3. Activities of the whole team (news posts with category "Team")
+  # 3. Activities (news posts with category "Activities")
   - block: collection
     content:
-      title: Team Activities
+      title: Activities
       subtitle: Papers, grants, conferences, visits
       count: 5
       filters:
         folders:
           - post
-        category: Team
+        category: Activities
       order: desc
     design:
       view: compact
       columns: '2'
 
-  # 4. Updates of individual members (news posts with category "Members")
+  # 4. Updates (news posts with category "Updates")
   - block: collection
     content:
-      title: Member Updates
+      title: Updates
       subtitle: Arrivals, defences, awards
       count: 5
       filters:
         folders:
           - post
-        category: Members
+        category: Updates
       order: desc
     design:
       view: compact
@@ -94,7 +94,7 @@ sections:
     content:
       title: Funding
       text: |
-        European Research Council (ERC) — project NASA · CNRS · Le Mans Université
+        European Research Council — ERC-St.G-NASA · CNRS · Le Mans Université
     design:
       columns: '2'
 ---

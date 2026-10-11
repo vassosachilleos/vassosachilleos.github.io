@@ -27,7 +27,7 @@ social:
     link: ''   # TODO
 highlight_name: true
 user_groups:
-  - Principal Investigators
+  - Principal Investigator
 ---
 
 TODO: short bio (can be adapted from the old site).

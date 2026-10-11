@@ -16,7 +16,7 @@ sections:
         label: Research themes
         url: research/
       cta_alt:
-        label: ERC-St.G-NASA
+        label: ERC-StG-NASA
         url: project/erc-nasa/
 
   # 2a. Research themes (figure cards — the modern version of "Recent Works")
@@ -94,7 +94,7 @@ sections:
     content:
       title: Funding
       text: |
-        European Research Council — ERC-St.G-NASA · CNRS · Le Mans Université
+        European Research Council — [ERC-StG-NASA](https://cordis.europa.eu/project/id/101077954/results) (grant agreement 101077954) · CNRS · Le Mans Université
     design:
       columns: '2'
 ---

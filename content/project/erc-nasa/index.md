@@ -1,7 +1,7 @@
 ---
-title: ERC-St.G-NASA
-summary: "European Research Council Starting Grant NASA (TODO — one-sentence summary and full title)."
-date: 2026-01-01   # TODO: start date
+title: ERC-StG-NASA
+summary: "Nonlinear and Active Sound Absorption — ERC Starting Grant 2022 (2023–2028)."
+date: 2023-03-01
 tags:
   - current        # remove when the project ends -> it disappears from the homepage
 type: landing
@@ -9,9 +9,20 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: ERC-St.G-NASA
+      title: ERC-StG-NASA
+      subtitle: Nonlinear and Active Sound Absorption
       text: |
-        TODO: description of the project, partners, key results.
+        **Manipulating nonlinear sound waves using non-Hermiticity and active control**
+
+        High-amplitude, nonlinear sound waves cannot be absorbed with conventional techniques and devices. NASA develops new strategies, based on non-Hermitian physics and active control, to absorb them.
+
+        - **Funding:** European Research Council, Starting Grant 2022 — grant agreement 101077954
+        - **Duration:** 1 March 2023 – 29 February 2028
+        - **Host:** CNRS — Laboratoire d'Acoustique de l'Université du Mans (LAUM, UMR 6613)
+        - **EU contribution:** €1,449,935
+
+        <a class="btn btn-primary mr-2 mb-2" href="https://cordis.europa.eu/project/id/101077954/results" target="_blank" rel="noopener">Official project page (CORDIS)</a>
+        <a class="btn btn-outline-primary mb-2" href="https://laum.univ-lemans.fr/fr/actualites/agenda2022/juillet2019-2-1-1-2-2-1-1/vassos-achilleos-laureat-du-programme-starting-grant-2022.html" target="_blank" rel="noopener">LAUM announcement</a>
     design:
       columns: '1'
 

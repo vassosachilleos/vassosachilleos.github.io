@@ -18,6 +18,8 @@ sections:
       cta_alt:
         label: ERC-StG-NASA
         url: project/erc-nasa/
+    design:
+      css_class: hero-waves
 
   # 2a. Research themes (figure cards — the modern version of "Recent Works")
   - block: collection

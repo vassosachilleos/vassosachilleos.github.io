@@ -1,0 +1,13 @@
+
+/* Top panel: faint wave pattern over a light blue gradient */
+.hero-waves {
+  background-color: #eef4fb;
+  background-image: url("/img/waves.svg"), linear-gradient(180deg, #e3edf9 0%, #f7faff 100%);
+  background-repeat: repeat, no-repeat;
+  border-bottom: 1px solid #d7e3f3;
+}
+.dark .hero-waves {
+  background-color: #14202e;
+  background-image: url("/img/waves.svg"), linear-gradient(180deg, #172638 0%, #111a26 100%);
+  border-bottom-color: #22344a;
+}

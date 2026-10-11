@@ -10,8 +10,8 @@ sections:
       title: |
         Vassos Achilleos
       text: |
-        <p class="mb-2">Chargé de recherche</p>
-        <p class="text-muted mb-4" style="font-size:0.72em; line-height:1.5;">Non-Hermitian and active wave physics · non-Hermitian skin effect · nonreciprocal lattices · exceptional points &amp; PT-symmetry · coherent perfect absorption · scattering-matrix methods</p>
+        <p class="mb-2">Chargé de recherche – CNRS <img src="/img/cnrs-logo.png" alt="CNRS" class="hero-cnrs"></p>
+        <p class="text-muted mb-4" style="font-size:0.58em; line-height:1.55;">Non-Hermitian and active wave physics · non-Hermitian skin effect · nonreciprocal lattices · exceptional points &amp; PT-symmetry · coherent perfect absorption · scattering-matrix methods</p>
       cta:
         label: Research themes
         url: research/

@@ -11,3 +11,12 @@
   background-image: url("/img/waves.svg"), linear-gradient(180deg, #172638 0%, #111a26 100%);
   border-bottom-color: #22344a;
 }
+
+/* CNRS logo next to the position in the top panel */
+.hero-cnrs { display:inline-block; height:1.6em; width:auto; vertical-align:middle; margin-left:.35em; }
+
+/* Institutional logos in the footer */
+.footer-logos { display:inline-block; margin-bottom:.6rem; }
+.footer-logos img { display:inline-block; height:38px; width:auto; margin:0 14px; vertical-align:middle; opacity:.85; transition:opacity .2s; }
+.footer-logos img:hover { opacity:1; }
+.footer-logos img[alt="LAUM"] { height:50px; }

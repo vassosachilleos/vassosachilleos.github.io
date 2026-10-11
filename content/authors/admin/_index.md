@@ -24,7 +24,7 @@ social:
     link: 'mailto:TODO@univ-lemans.fr'
   - icon: google-scholar
     icon_pack: ai
-    link: ''   # TODO
+    link: 'https://scholar.google.com/citations?hl=en&user=agupRD8AAAAJ&view_op=list_works&sortby=pubdate'
 highlight_name: true
 user_groups:
   - Principal Investigator

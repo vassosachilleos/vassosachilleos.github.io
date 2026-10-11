@@ -1,0 +1,14 @@
+{{ $item := .item }}
+{{ $link := $item.Params.external_link | default $item.RelPermalink }}
+{{ $summary := $item.Params.summary | default $item.Summary }}
+{{ $img := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+<div class="col-12 col-md-6 mb-5 view-theme">
+  <div class="theme-card">
+    <h3 class="theme-title"><a href="{{ $link }}">{{ $item.Title | markdownify }}</a></h3>
+    {{ with $summary }}<p class="theme-summary">{{ . | markdownify }}</p>{{ end }}
+    {{ with $img }}
+      {{ $r := .Resize "900x webp" }}
+      <a href="{{ $link }}"><img class="theme-fig" src="{{ $r.RelPermalink }}" alt="{{ $item.Title }}" loading="lazy"></a>
+    {{ end }}
+  </div>
+</div>

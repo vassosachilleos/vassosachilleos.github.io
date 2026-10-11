@@ -31,8 +31,7 @@ sections:
           - research
       order: desc
     design:
-      view: showcase
-      flip_alt_rows: true
+      view: theme
       columns: '1'
 
   # 2. Projects I participate in now (any project page tagged "current")

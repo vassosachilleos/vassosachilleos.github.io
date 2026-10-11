@@ -28,3 +28,15 @@
 .paper-caption { font-size:.8rem; color:#6c757d; margin-bottom:.45rem; }
 .paper-ref { font-size:.95rem; line-height:1.55; }
 .paper-note { font-size:.75rem; color:#8a939c; margin-top:1rem; }
+
+/* Small title banner for section pages */
+.hero-small { padding-top: 2.2rem !important; padding-bottom: 1.6rem !important; }
+.hero-small .hero-title { font-size: 2.2rem; margin-bottom: .2rem; }
+
+/* Research theme cards: title, summary, then figure */
+.theme-card { height: 100%; }
+.theme-title { font-size: 1.35rem; font-weight: 600; margin-bottom: .4rem; }
+.theme-title a { color: inherit; }
+.theme-summary { font-size: .95rem; color: #555; margin-bottom: .8rem; }
+.theme-fig { display: block; width: 100%; height: auto; border: 1px solid #e6ebf2; border-radius: 4px; background: #fff; }
+div:has(> .view-theme) { display: flex; flex-wrap: wrap; }

@@ -40,3 +40,9 @@
 .theme-summary { font-size: .95rem; color: #555; margin-bottom: .8rem; }
 .theme-fig { display: block; width: 100%; height: auto; border: 1px solid #e6ebf2; border-radius: 4px; background: #fff; }
 div:has(> .view-theme) { display: flex; flex-wrap: wrap; }
+
+/* LAUM logo on the right of the top panel (links to the LAUM homepage) */
+.hero-side-logo a { display:inline-block; background:#fff; border-radius:8px; padding:.6rem .8rem; box-shadow:0 1px 4px rgba(20,40,80,.12); transition:box-shadow .2s, transform .2s; }
+.hero-side-logo a:hover { box-shadow:0 3px 12px rgba(20,40,80,.22); transform:translateY(-1px); }
+.hero-side-logo img { display:block; width:100%; max-width:220px; height:auto; }
+@media (max-width: 767.98px) { .hero-side-logo { margin-top:1.2rem; } .hero-side-logo img { max-width:170px; } }

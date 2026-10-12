@@ -18,6 +18,10 @@ sections:
       cta_alt:
         label: ERC-StG-NASA
         url: project/erc-nasa/
+      side_logo:
+        src: img/laum-logo.png
+        url: https://laum.univ-lemans.fr/fr/index.html
+        alt: LAUM – Laboratoire d'Acoustique de l'Université du Mans
     design:
       css_class: hero-waves
 

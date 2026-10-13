@@ -1,5 +1,5 @@
 ---
-title: Non-Hermitian skin effect & nonreciprocal lattices
+title: Non-Hermitian skin effect & nonreciprocity in acoustic waveguides
 summary: In nonreciprocal lattices the bulk eigenmodes pile up at one boundary and the spectrum depends drastically on boundary conditions.
 date: 2026-10-03
 ---

@@ -1,5 +1,5 @@
 ---
-title: Nonlinear waves
+title: Nonlinear waves in acoustics
 summary: Solitons in acoustic waveguides and metamaterials, nonlinearity versus Anderson localization in disordered lattices, and nonlinear waves in nonreciprocal lattices.
 date: 2026-10-04
 ---

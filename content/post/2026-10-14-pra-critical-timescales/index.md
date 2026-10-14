@@ -6,6 +6,7 @@ categories: [Activities]
 math: true
 tags: [exceptional points, PT-symmetry, non-Hermitian dynamics]
 summary: "A closed-form critical time separating non-chiral from chiral state conversion in slow non-Hermitian loops."
+listing_note: "Collaboration with the group of L. E. F. Foa Torres, Universidad de Chile (Santiago). [Phys. Rev. A (accepted)](https://journals.aps.org/pra/accepted/10.1103/5w1p-sg68) · [arXiv:2604.01918](https://arxiv.org/abs/2604.01918)"
 image:
   caption: "Population ratio for clockwise (red) and anticlockwise (blue) encircling: the dynamics become chiral beyond the critical time (Fig. 3)."
 ---

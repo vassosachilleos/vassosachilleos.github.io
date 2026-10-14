@@ -6,6 +6,7 @@ categories: [Activities]
 math: true
 tags: [nonreciprocity, skin effect, nonlinear waves]
 summary: "Amplification lets weak nonlinearity drive wave packets from skin-effect transport to wave mixing and self-trapping."
+listing_note: "With B. Many Manda (Tel Aviv University / LAUM). [Phys. Rev. B](https://journals.aps.org/prb/abstract/10.1103/m8bb-hd9n) · [arXiv:2604.02263](https://arxiv.org/abs/2604.02263)"
 image:
   caption: "Nonlinear Hatano–Nelson chain and the three dynamical regimes: nonlinear skin, wave mixing, self-trapping (Fig. 1)."
 ---

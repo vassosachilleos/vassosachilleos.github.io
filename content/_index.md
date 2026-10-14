@@ -25,34 +25,7 @@ sections:
     design:
       css_class: hero-waves
 
-  # 2a. Research themes (figure cards — the modern version of "Recent Works")
-  - block: collection
-    content:
-      title: Research Themes
-      count: 6
-      filters:
-        folders:
-          - research
-      order: desc
-    design:
-      view: theme
-      columns: '1'
-
-  # 2. Projects I participate in now (any project page tagged "current")
-  - block: collection
-    content:
-      title: Current Projects
-      count: 6
-      filters:
-        folders:
-          - project
-        tag: current
-      order: desc
-    design:
-      view: card
-      columns: '2'
-
-  # 3. Activities (news posts with category "Activities")
+  # 2. Activities (news posts with category "Activities")
   - block: collection
     content:
       title: Activities
@@ -67,7 +40,7 @@ sections:
       view: compact
       columns: '2'
 
-  # 4. Updates (news posts with category "Updates")
+  # 3. Updates (news posts with category "Updates")
   - block: collection
     content:
       title: Updates
@@ -82,7 +55,34 @@ sections:
       view: compact
       columns: '2'
 
-#  # 5. Latest publications (imported from BibTeX / HAL)
+  # 4. Research themes (figure cards — the modern version of "Recent Works")
+  - block: collection
+    content:
+      title: Research Themes
+      count: 6
+      filters:
+        folders:
+          - research
+      order: desc
+    design:
+      view: theme
+      columns: '1'
+
+  # 5. Projects I participate in now (any project page tagged "current")
+  - block: collection
+    content:
+      title: Current Projects
+      count: 6
+      filters:
+        folders:
+          - project
+        tag: current
+      order: desc
+    design:
+      view: card
+      columns: '2'
+
+#  # 6. Latest publications (imported from BibTeX / HAL)
 #  - block: collection
 #    content:
 #      title: Latest Publications
@@ -94,7 +94,7 @@ sections:
 #      view: citation
 #      columns: '2'
 
-  # 6. Funding, as on the CAPS homepage
+  # 7. Funding, as on the CAPS homepage
   - block: markdown
     content:
       title: Funding

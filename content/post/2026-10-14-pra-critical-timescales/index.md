@@ -11,6 +11,8 @@ image:
 ---
 For slow parametric loops in a non-Hermitian two-level system (PT-symmetric dimer), we derive a closed-form critical time $T_{\rm cr} = G \ln(1/|\Delta|)$ separating dynamics that remain in the averagely dominant eigenstate from dynamics taken over by the instantaneously dominant one. The seed $\Delta$ is either geometric (a Stokes multiplier) or set by the finite numerical precision, in which case $T_{\rm cr}$ grows linearly with the number of digits; for PT-symmetric spectra, $T_{\rm cr}$ marks the onset of chiral state conversion around an exceptional point.
 
-With G. Pappas, D. Bautista Avilés and L. E. F. Foa Torres.
+**Authors:** G. Pappas, D. Bautista Avilés, L. E. F. Foa Torres, V. Achilleos
+
+Collaboration with Chile — the group of L. E. F. Foa Torres, Departamento de Física, Universidad de Chile (Santiago).
 
 **Links:** [Phys. Rev. A (accepted)](https://journals.aps.org/pra/accepted/10.1103/5w1p-sg68) · [arXiv:2604.01918](https://arxiv.org/abs/2604.01918)

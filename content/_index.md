@@ -29,7 +29,6 @@ sections:
   - block: collection
     content:
       title: Activities
-      subtitle: Papers, grants, conferences, visits
       count: 5
       filters:
         folders:
@@ -44,7 +43,6 @@ sections:
   - block: collection
     content:
       title: Updates
-      subtitle: Arrivals, defences, awards
       count: 5
       filters:
         folders:

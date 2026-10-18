@@ -173,3 +173,79 @@ rontgen2023prapplied:
   fig: rontgen2023prapplied.png
   width: 60%
   caption: "Fig. 1: two-port scattering set-up and waveguide networks with different symmetries."
+zheng2019prapplied:
+  authors: L.-Y. Zheng, V. Achilleos, O. Richoux, G. Theocharis, and V. Pagneux
+  title: Observation of edge waves in a two-dimensional Su-Schrieffer-Heeger acoustic network
+  journal: Phys. Rev. Applied
+  volume: "12"
+  number: "034014"
+  year: 2019
+  doi: 10.1103/PhysRevApplied.12.034014
+  fig: zheng2019prapplied.png
+  caption: "2D SSH network of air channels: lattice and unit cell, bulk and supercell band structures (discrete model vs. simulation), and measured edge wave."
+zheng2020njp:
+  authors: L.-Y. Zheng, V. Achilleos, Z.-G. Chen, O. Richoux, G. Theocharis, Y. Wu, J. Mei, S. Felix, V. Tournat, and V. Pagneux
+  title: "Acoustic graphene network loaded with Helmholtz resonators: a first-principle modeling, Dirac cones, edge and interface waves"
+  journal: New J. Phys.
+  volume: "22"
+  number: "013029"
+  year: 2020
+  doi: 10.1088/1367-2630/ab60f1
+  fig: zheng2020njp.png
+  caption: "Strip band structure of the resonator-loaded honeycomb network and interface waves guided around 120° corners (simulations)."
+coutant2020prb:
+  authors: A. Coutant, V. Achilleos, O. Richoux, G. Theocharis, and V. Pagneux
+  title: Robustness of topological corner modes against disorder with application to acoustic networks
+  journal: Phys. Rev. B
+  volume: "102"
+  number: "214204"
+  year: 2020
+  doi: 10.1103/PhysRevB.102.214204
+  arxiv: "2007.13217"
+  fig: coutant2020prb.png
+  width: 65%
+  caption: "Asymmetrized 2D SSH cavity with a single corner mode, and its robustness to flux-preserving disorder of the couplings."
+coutant2021prb:
+  authors: A. Coutant, A. Sivadon, L. Zheng, V. Achilleos, O. Richoux, G. Theocharis, and V. Pagneux
+  title: "Acoustic Su-Schrieffer-Heeger lattice: Direct mapping of acoustic waveguides to the Su-Schrieffer-Heeger model"
+  journal: Phys. Rev. B
+  volume: "103"
+  number: "224309"
+  year: 2021
+  doi: 10.1103/PhysRevB.103.224309
+  arxiv: "2103.03859"
+  fig: coutant2021prb.png
+  caption: "Experiment: waveguide with alternating cross-sections, measured spectra with and without disorder, and edge-mode profile pinned at kℓ = π/2."
+coutant2022jasa:
+  authors: A. Coutant, V. Achilleos, O. Richoux, G. Theocharis, and V. Pagneux
+  title: Subwavelength Su-Schrieffer-Heeger topological modes in acoustic waveguides
+  journal: J. Acoust. Soc. Am.
+  volume: "151"
+  number: "3626"
+  year: 2022
+  doi: 10.1121/10.0011550
+  arxiv: "2112.13347"
+  fig: coutant2022jasa.png
+  width: 35%
+  caption: "Bloch phase without (a) and with (b) Helmholtz resonators: the edge mode moves to the subwavelength regime."
+coutant2024apr:
+  authors: A. Coutant, L.-Y. Zheng, V. Achilleos, O. Richoux, G. Theocharis, and V. Pagneux
+  title: Topologically invisible defects in chiral mirror lattices
+  journal: Adv. Physics Res.
+  volume: "3"
+  number: "2300102"
+  year: 2024
+  doi: 10.1002/apxr.202300102
+  arxiv: "2303.02029"
+  fig: coutant2024apr.png
+  caption: "Kekulé honeycomb lattice, transmission of the edge wave through a defect, and acoustic network simulation: unit transmission, zero phase shift."
+rontgen2024prb:
+  authors: M. Röntgen, X. Chen, W. Gao, M. Pyzh, P. Schmelcher, V. Pagneux, V. Achilleos, and A. Coutant
+  title: Topological states protected by hidden symmetry
+  journal: Phys. Rev. B
+  volume: "110"
+  number: "035106"
+  year: 2024
+  doi: 10.1103/PhysRevB.110.035106
+  fig: rontgen2024prb.png
+  caption: "Latent SSH model: latently symmetric unit cells, topological transitions, and edge states measured in an electric circuit."

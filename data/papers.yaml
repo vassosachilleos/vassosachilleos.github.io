@@ -256,6 +256,6 @@ hagstrom2026jsv:
   volume: "643"
   number: "120000"
   year: 2026
-  # doi: add when known (Elsevier JSV DOIs use the acceptance year, so it cannot be guessed)
+  url: https://www.sciencedirect.com/science/article/pii/S0022460X26003615
   fig: hagstrom2026jsv.png
   caption: "Helmholtz resonator at high amplitude: (c) reflection |R| near resonance for increasing incident amplitude, against the linear lossy prediction (dashed); (d) pole (×) and zero (○) of R moving in the complex-frequency plane as the amplitude grows, the zero reaching the real axis at critical coupling."

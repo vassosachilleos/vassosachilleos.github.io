@@ -8,7 +8,7 @@
   {{- with $p.caption }}<div class="paper-caption">{{ . }}</div>{{ end }}
   <div class="paper-ref">
     {{ $p.authors }}, <em>{{ $p.title }}</em>, {{ $p.journal }} <strong>{{ $p.volume }}</strong>, {{ $p.number }} ({{ $p.year }}).
-    {{ with $p.doi }}<a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">Paper</a>{{ end }}
+    {{ with $p.doi }}<a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">Paper</a>{{ else }}{{ with $p.url }}<a href="{{ . }}" target="_blank" rel="noopener">Paper</a>{{ end }}{{ end }}
     {{- with $p.arxiv }} · <a href="https://arxiv.org/abs/{{ . }}" target="_blank" rel="noopener">arXiv</a>{{ end }}
   </div>
 </li>

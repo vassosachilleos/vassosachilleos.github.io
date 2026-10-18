@@ -8,5 +8,8 @@ organizations:
   - name: LAUM, CNRS — Le Mans Université
 user_groups:
   - Postdocs
-social: []   # TODO: Google Scholar link
+social:
+  - icon: google-scholar
+    icon_pack: ai
+    link: 'https://scholar.google.com/citations?hl=en&user=SwQYdV8AAAAJ'
 ---

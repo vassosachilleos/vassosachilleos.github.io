@@ -16,12 +16,21 @@
   <div class="col-12 col-md-9">
 {{ end }}
 
+    {{ with $block.content.portrait }}
+    <div class="hero-id">
+      <img class="hero-portrait" src="{{ .src | relURL }}" alt="{{ .alt }}">
+      <div class="hero-id-text">
+    {{ end }}
     {{ with $block.content.title }}
       <h1 class="hero-title">{{ . | markdownify }}</h1>
     {{ end }}
 
     {{ with $block.content.text }}
       <div class="hero-lead">{{ . | $page.RenderString | emojify }}</div>
+    {{ end }}
+    {{ with $block.content.portrait }}
+      </div>
+    </div>
     {{ end }}
 
     {{/* Call-to-action link */}}

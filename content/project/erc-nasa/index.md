@@ -35,16 +35,25 @@ sections:
 
   - block: papers
     content:
-      title: Papers acknowledging ERC-StG-NASA
+      title: Sound absorption & active control
+      text: Perfect absorption of high-amplitude sound, complex-frequency excitations, and active (feedback-controlled) acoustic elements.
+      papers:
+        - hagstrom2026jsv
+        - maddi2025jasa
+        - maddi2025jap
+        - maddi2024prr
+        - rontgen2023prapplied
+    design:
+      columns: '1'
+
+  - block: papers
+    content:
+      title: Other papers acknowledging ERC-StG-NASA
       papers:
         - jana2025prapplied
-        - maddi2025jap
-        - maddi2025jasa
         - sougleridis2024prb
         - manda2024prbL
-        - maddi2024prr
         - eek2024prb
-        - rontgen2023prapplied
     design:
       columns: '1'
 

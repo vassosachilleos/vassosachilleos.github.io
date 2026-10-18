@@ -67,7 +67,7 @@ sections:
         - PhD Students
         - Interns
         - Visitors
-        - Alumni
+        - Former postdocs
       sort_by: Params.last_name
       sort_ascending: true
     design:

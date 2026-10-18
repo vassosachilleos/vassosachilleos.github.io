@@ -2,12 +2,12 @@
 title: Joar Zhou Hagström
 first_name: Joar
 last_name: Zhou Hagström
-role: Former postdoc, ERC-StG-NASA (2023–2025)
+role: Postdoc, ERC-StG-NASA (2023–2025)
 bio: Sound absorption for high-amplitude waves in the audible regime.
 organizations:
   - name: LAUM, CNRS — Le Mans Université
 user_groups:
-  - Alumni
+  - Former postdocs
 social:
   - icon: google-scholar
     icon_pack: ai

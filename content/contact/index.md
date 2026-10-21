@@ -9,7 +9,7 @@ sections:
     content:
       title: Contact
       text: ''
-      email: TODO@univ-lemans.fr
+      email: achilleos.vassos@univ-lemans.fr
       address:
         street: "Laboratoire d'Acoustique de l'Université du Mans (LAUM), Avenue Olivier Messiaen"
         city: Le Mans

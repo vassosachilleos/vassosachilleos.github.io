@@ -11,7 +11,7 @@ sections:
         Vassos Achilleos
       text: |
         <p class="mb-2">Chargé de recherche – CNRS <img src="/img/cnrs-logo.png" alt="CNRS" class="hero-cnrs"></p>
-        <p class="text-muted mb-4" style="font-size:0.58em; line-height:1.55;">Audible acoustics · acoustic waveguides · nonlinear acoustics &amp; sound absorption · non&#8209;Hermitian and active wave physics · non&#8209;Hermitian skin effect · nonreciprocal lattices · exceptional points &amp; PT&#8209;symmetry · coherent perfect absorption · scattering&#8209;matrix methods</p>
+        <p class="text-muted mb-4" style="font-size:0.58em; line-height:1.55;">Audible acoustics · acoustic waveguides · nonlinear acoustics &amp; sound absorption · non&#8209;Hermitian and active wave physics · non&#8209;Hermitian skin effect</p>
       portrait:
         src: img/portrait.jpg
         alt: Vassos Achilleos

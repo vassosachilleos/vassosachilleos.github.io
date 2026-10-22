@@ -104,19 +104,4 @@ sections:
         European Research Council — [ERC-StG-NASA](https://cordis.europa.eu/project/id/101077954/results) (grant agreement 101077954) · CNRS · Le Mans Université
     design:
       columns: '2'
-
-  # 8. About & contact (plain-text bio with the full name helps search engines identify the page)
-  - block: markdown
-    content:
-      title: About & contact
-      text: |
-        **Vassos Achilleos** is a CNRS researcher (*Chargé de recherche*) at the [Laboratoire d'Acoustique de l'Université du Mans (LAUM, UMR 6613)](https://laum.univ-lemans.fr), CNRS / Le Mans Université, in Le Mans, France. He works on wave physics in acoustics: acoustic waveguides and networks, nonlinear acoustics and sound absorption, and non-Hermitian and active wave systems, including the non-Hermitian skin effect, nonreciprocal lattices and exceptional points.
-
-        He is the principal investigator of the [ERC Starting Grant NASA](project/erc-nasa/) (*Nonlinear and Active Sound Absorption*, 2023–2028), funded by the European Research Council, and a member of the scientific committee of the GDR PhyTop. He received his PhD in 2015. [Selected publications](publications/) · [Google Scholar](https://scholar.google.com/citations?user=agupRD8AAAAJ)
-
-        *Vassos Achilleos est chargé de recherche CNRS au Laboratoire d'Acoustique de l'Université du Mans (LAUM). Ses travaux portent sur la physique des ondes en acoustique — guides d'ondes, acoustique non linéaire, absorption du son, systèmes non hermitiens et actifs — et il est porteur du projet ERC Starting Grant NASA.*
-
-        **Contact** — <a href="mailto:achilleos.vassos@univ-lemans.fr">achilleos.vassos@univ-lemans.fr</a> · Laboratoire d'Acoustique de l'Université du Mans (LAUM), Avenue Olivier Messiaen, 72085 Le Mans, France · [Contact page](contact/)
-    design:
-      columns: '1'
 ---

@@ -18,7 +18,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: 'Laboratoire d''Acoustique de l''Université du Mans (LAUM, UMR 6613 CNRS)'
-    description: 'Non-Hermitian and active wave physics at LAUM, Le Mans.'
+    description: 'Vassos Achilleos, CNRS researcher (Chargé de recherche) at LAUM, Le Mans Université: acoustics, non-Hermitian and active wave physics, ERC Starting Grant NASA.'
     twitter: ''
   analytics:
     google_analytics: ''
@@ -26,8 +26,45 @@ marketing:
     google_tag_manager: ''
     microsoft_clarity: ''
   verification:
+    # Paste ONLY the content="..." value of the HTML-tag method from Google Search Console
+    # (Settings > Ownership verification > HTML tag), e.g. google: 'AbCdEf123...'
     google: ''
     baidu: ''
+
+# Person structured data (schema.org) — used by layouts/partials/hooks/head-end/person-jsonld.html
+# Add every profile that is unambiguously yours to same_as (ORCID, HAL, ResearchGate, LinkedIn...).
+# Google uses these links to tie the profiles together and to the site.
+
+person:
+  name: Vassos Achilleos
+  given_name: Vassos
+  family_name: Achilleos
+  job_title: 'Chargé de recherche CNRS (CNRS researcher)'
+  email: achilleos.vassos@univ-lemans.fr
+  image: img/portrait.jpg
+  works_for:
+    - name: 'Laboratoire d''Acoustique de l''Université du Mans (LAUM, UMR 6613 CNRS)'
+      url: 'https://laum.univ-lemans.fr'
+    - name: CNRS
+      url: 'https://www.cnrs.fr'
+  affiliation:
+    - name: Le Mans Université
+      url: 'https://www.univ-lemans.fr'
+  knows_about:
+    - Acoustics
+    - Acoustic waveguides
+    - Nonlinear acoustics
+    - Sound absorption
+    - Non-Hermitian physics
+    - Non-Hermitian skin effect
+    - Exceptional points
+    - Acoustic metamaterials
+  same_as:
+    - 'https://scholar.google.com/citations?user=agupRD8AAAAJ'
+    # - 'https://orcid.org/XXXX-XXXX-XXXX-XXXX'
+    # - 'https://cv.hal.science/YOUR-IDHAL'
+    # - 'https://www.researchgate.net/profile/Vassos-Achilleos'
+    # - 'https://www.linkedin.com/in/YOUR-HANDLE'
 
 # Site header
 

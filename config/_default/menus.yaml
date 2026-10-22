@@ -9,7 +9,7 @@ main:
     url: project/erc-nasa/
     weight: 30
   - name: Publications
-    url: 'https://scholar.google.com/citations?hl=en&user=agupRD8AAAAJ&view_op=list_works&sortby=pubdate'
+    url: publications/
     weight: 40
   - name: Projects
     url: project

@@ -1,0 +1,25 @@
+{{/* schema.org Person markup on the homepage, so search engines identify the site as
+     the official page of the person named in config/_default/params.yaml (person:). */}}
+{{- if .IsHome -}}
+{{- with site.Params.person -}}
+{{- $p := dict "@context" "https://schema.org" "@type" "Person" "name" .name "url" ("/" | absURL) -}}
+{{- with .given_name }}{{ $p = merge $p (dict "givenName" .) }}{{ end -}}
+{{- with .family_name }}{{ $p = merge $p (dict "familyName" .) }}{{ end -}}
+{{- with .job_title }}{{ $p = merge $p (dict "jobTitle" .) }}{{ end -}}
+{{- with .email }}{{ $p = merge $p (dict "email" (printf "mailto:%s" .)) }}{{ end -}}
+{{- with .image }}{{ $p = merge $p (dict "image" (. | absURL)) }}{{ end -}}
+{{- with .works_for -}}
+  {{- $orgs := slice -}}
+  {{- range . }}{{ $orgs = $orgs | append (dict "@type" "Organization" "name" .name "url" .url) }}{{ end -}}
+  {{- $p = merge $p (dict "worksFor" $orgs) -}}
+{{- end -}}
+{{- with .affiliation -}}
+  {{- $orgs := slice -}}
+  {{- range . }}{{ $orgs = $orgs | append (dict "@type" "CollegeOrUniversity" "name" .name "url" .url) }}{{ end -}}
+  {{- $p = merge $p (dict "affiliation" $orgs) -}}
+{{- end -}}
+{{- with .knows_about }}{{ $p = merge $p (dict "knowsAbout" .) }}{{ end -}}
+{{- with .same_as }}{{ $p = merge $p (dict "sameAs" .) }}{{ end -}}
+<script type="application/ld+json">{{ $p | jsonify | safeJS }}</script>
+{{- end -}}
+{{- end -}}

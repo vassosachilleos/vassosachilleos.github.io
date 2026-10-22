@@ -28,7 +28,7 @@ marketing:
   verification:
     # Paste ONLY the content="..." value of the HTML-tag method from Google Search Console
     # (Settings > Ownership verification > HTML tag), e.g. google: 'AbCdEf123...'
-    google: ''
+    google: 'WmACeK3EvL7nSXYQjQKFF6yzgOsi0-H1gc2iucnkFWU'
     baidu: ''
 
 # Person structured data (schema.org) — used by layouts/partials/hooks/head-end/person-jsonld.html
